@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box 2</title>
+    <style>
+        .header{
+            border-radius: 2px;
+            height: 45px;
+            width: 608px;
+            background-color: cornflowerblue;
+            color: white;
+            font-size: larger;
+            padding:1em;
+            margin-bottom: 15px;
+            margin-left: 10px;
+            box-shadow: 1px 3px 8px black;
+        }
+        
+        .item{
+            
+            display: flex;
+            flex-direction: row;
+            border: px solid;
+            background-color: darkgreen;
+            border-radius: 10px;
+            height:80px;
+            width: 100px;
+            font-size: larger;
+            box-shadow: 7px 7px 5px black;
+            align-items:center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+
+            
+        }
+        .footer{
+            border-radius: 2px;
+            height: 45px;
+            width: 608px;
+            background-color: cornflowerblue;
+            color: white;
+            font-size: larger;
+            padding: 1em;
+            margin-bottom: 10px; 
+            margin-top: 35px;
+             box-shadow: 1px 3px 8px black;
+            
+        }.side{
+            border-radius: 9px;
+            height: 330px;
+            width: 90px;
+            background-color: rgb(237, 127, 100);
+            color: white;
+            font-size: larger;
+            padding: 1em;
+            margin-left:515px;
+            margin-top:-474px;
+            box-shadow: 1px 3px 8px black;
+        }
+        .main{
+            color: white;
+            border-radius: 10px;
+            background-color: lightgreen;
+            width:500px;
+            height: 350px;
+            margin-bottom:10px;
+            padding-top: 20px;
+            margin-left: 10px;
+            box-shadow: 1px 3px 8px black;
+            
+        }
+        .one{
+            display: flex;
+            /* flex-wrap: wrap; */
+            gap: 15px 15px;
+            padding: 1em;
+        }
+
+        .two{
+            display:flex;
+            /* flex-wrap: wrap; */
+            gap: 15px 15px;
+            padding: 1 em;
+            margin-left: 15px;
+        }
+        .three{
+            display: flex;
+            /* flex-wrap: wrap; */
+            gap: 15px 15px;
+            padding: 1em;
+        }
+        .m{
+            font-size: larger;
+            padding-left: 15px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <p> Header</p>
+    </div>
+    <div class="main">
+        <div class="m">main</div>
+    <div class="base">
+        <div class="one">
+        <div class="item">item</div>
+        <div class="item">item</div>
+        <div class="item">item</div>
+        <div class="item">item</div>
+        </div>
+        <div class="two">
+        <div class="item">item</div>
+        <div class="item">item</div>
+        <div class="item">item</div>
+        <div class="item">item</div>
+        </div>
+        <div class="three">
+        <div class="item">item</div>
+        <div class="item">item</div>
+        <div class="item">item</div>
+    </div>
+    </div>
+    <div class="footer">footer</div>
+    <div class="side">side bar</div>
+ </body>   
+</html>
